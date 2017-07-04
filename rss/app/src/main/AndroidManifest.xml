@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme">
 
 
-        <activity android:name=".RssMainActivity">
+        <activity android:name=".UI.RssMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,21 +24,21 @@
 
 
         <activity
-            android:name=".DatailActivity"
+            android:name=".UI.DatailActivity"
             android:label="@string/detail"
-            android:parentActivityName=".DetailPreview">
+            android:parentActivityName=".UI.DetailPreview">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DetailPreview" />
+                android:value=".UI.DetailPreview" />
         </activity>
 
         <activity
-            android:name=".DetailPreview"
+            android:name=".UI.DetailPreview"
             android:label="@string/detail"
-            android:parentActivityName=".RssMainActivity">
+            android:parentActivityName=".UI.RssMainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RssMainActivity" />
+                android:value=".UI.RssMainActivity" />
         </activity>
     </application>
 

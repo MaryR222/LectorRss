@@ -1,4 +1,4 @@
-package com.example.rss.rssapp;
+package com.example.rss.rssapp.UI;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,6 +19,7 @@ import com.android.volley.VolleyError;
 import com.example.rss.rssapp.Adapter.RssAdapter;
 import com.example.rss.rssapp.BD.RssDataBase;
 import com.example.rss.rssapp.BD.ScripDataBase;
+import com.example.rss.rssapp.R;
 import com.example.rss.rssapp.RssParse.Rss;
 import com.example.rss.rssapp.network.ClientHttp;
 import com.example.rss.rssapp.network.XmlRequest;
@@ -91,7 +92,7 @@ public class RssMainActivity extends AppCompatActivity {
 
                 Intent i = new Intent(RssMainActivity.this, DetailPreview.class);
 
-                // Setear url
+                // set url
                 i.putExtra("url-extra", url);
                 i.putExtra("title", title);
                 i.putExtra("description", description);

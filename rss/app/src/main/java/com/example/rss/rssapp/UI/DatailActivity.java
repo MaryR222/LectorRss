@@ -1,9 +1,11 @@
-package com.example.rss.rssapp;
+package com.example.rss.rssapp.UI;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.example.rss.rssapp.R;
 
 /**
  * Created by mrezapue on 3/7/17.
